@@ -10,7 +10,7 @@ import java.time.*;
  * @author pratheeba
  */
 
- class LesserThanException extends RuntimeException
+ class LesserThanException extends RuntimeException //User Defined Exception
 {
     public LesserThanException ()
     {
@@ -24,6 +24,7 @@ class GreaterThanException extends RuntimeException
         System.out.println("Greater value");
     }
 }
+
 public class Integr {
   
               
